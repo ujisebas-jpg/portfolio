@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Sebas</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #1f2937;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    header h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 18px;
+      opacity: 0.9;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 900px;
+      margin: 30px auto;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      margin-bottom: 20px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      margin-bottom: 15px;
+      color: #1f2937;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .project {
+      margin-bottom: 15px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #777;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 15px;
+      background: #2563eb;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+
+    .btn:hover {
+      background: #1d4ed8;
+    }
+      .hero-badge {
+      display: inline-block;
+      margin-top: 10px;
+      background: #3b82f6;
+      color: white;
+      padding: 8px 14px;
+      border-radius: 999px;
+      font-size: 14px;
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 15px;
+      margin-top: 15px;
+    }
+
+    .stat-box {
+      background: #eef2ff;
+      padding: 15px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .stat-box h3 {
+      color: #2563eb;
+      font-size: 24px;
+    }
+
+    .tag {
+      display: inline-block;
+      background: #dbeafe;
+      color: #1e40af;
+      padding: 6px 12px;
+      border-radius: 999px;
+      margin: 5px;
+      font-size: 14px;
+    }
+
+    .quote {
+      font-style: italic;
+      text-align: center;
+      color: #555;
+    }
+
+    .glow {
+      animation: glow 2s infinite alternate;
+    }
+
+    @keyframes glow {
+      from {
+        box-shadow: 0 0 10px rgba(37,99,235,0.3);
+      }
+      to {
+        box-shadow: 0 0 20px rgba(37,99,235,0.7);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Fauzi Anwar DS</h1>
+    <p>Mahasiswa Teknik Telekomunikasi | Pemula Web Development</p>
+    <div class="hero-badge">🚀 Siap Belajar & Berkembang di Dunia Teknologi</div>
+  </header>
+
+  <div class="container">
+
+    <div class="card">
+      <h2>Tentang Saya</h2>
+      <p>
+        Saya tertarik pada bidang teknologi dan pemrograman dasar. 
+        Pernah membuat website sederhana menggunakan HTML dan CSS 
+        serta terbiasa menggunakan Microsoft Word, Excel, dan VS Code.
+      </p>
+    </div>
+
+    <div class="card glow">
+      <h2>Statistik Singkat</h2>
+
+      <div class="stats">
+        <div class="stat-box">
+          <h3>3+</h3>
+          <p>Project Sederhana</p>
+        </div>
+
+        <div class="stat-box">
+          <h3>5+</h3>
+          <p>Tools Dipelajari</p>
+        </div>
+
+        <div class="stat-box">
+          <h3>100%</h3>
+          <p>Semangat Belajar</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Skill</h2>
+      <ul>
+        <li>HTML Dasar</li>
+        <li>CSS Dasar</li>
+        <li>Bootstrap Dasar</li>
+        <li>Microsoft Excel</li>
+        <li>Microsoft Word</li>
+      </ul>
+
+      <div style="margin-top:15px;">
+        <span class="tag">HTML</span>
+        <span class="tag">CSS</span>
+        <span class="tag">Bootstrap</span>
+        <span class="tag">VS Code</span>
+        <span class="tag">Excel</span>
+      </div>
+
+      <ul>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Project Sederhana</h2>
+
+      <div class="project">
+        <h3>Website Biodata</h3>
+        <p>Membuat website biodata sederhana menggunakan HTML dan CSS.</p>
+      </div>
+
+      <div class="project">
+        <h3>Landing Page Sederhana</h3>
+        <p>Membuat tampilan landing page sederhana untuk latihan desain web.</p>
+      </div>
+
+    </div>
+
+    <div class="card">
+      <h2>Kontak</h2>
+      <p>Email: Ujisebas@gmail.com</p>
+      <p>Instagram: -</p>
+
+      <a href="#" class="btn">Hubungi Saya</a>
+    </div>
+
+  </div>
+
+  <div class="card quote">
+      <h2>Motivasi</h2>
+      <p>
+        “Belajar teknologi bukan tentang langsung jago, tapi tentang terus berkembang sedikit demi sedikit.”
+      </p>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>© 2026 Fauzi Anwar DS - Portfolio Sederhana</p>
+  </footer>
+
+</body>
+</html>
